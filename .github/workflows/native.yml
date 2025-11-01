@@ -30,7 +30,7 @@ jobs:
     #      local_path: target\native-image\kabrioletas.exe
     steps:
     - uses: actions/checkout@v4
-    - uses: coursier/cache-action@v6
+    - uses: coursier/cache-action@v7
     - uses: olafurpg/setup-scala@v14
     - run: git fetch --tags || true
     - shell: bash
